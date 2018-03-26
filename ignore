@@ -1,0 +1,60 @@
+.gitignore
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+.DS_Store
+package-lock.json
+
+#if vs code is on, it hides it
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+.DS_Store
+package-lock.json
+
+
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+#if vscode is on, will not be tracked?
+.vscode/
